@@ -8,7 +8,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    color: var(--preto);
+}
 header .container{
     display: flex;
     flex-direction: row;

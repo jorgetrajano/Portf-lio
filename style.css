@@ -1,0 +1,28 @@
+:root{
+    --preto: black;
+    --branco: white;
+    --azul: #81BEF7;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--branco);
+    font-size: 40px;
+}
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
